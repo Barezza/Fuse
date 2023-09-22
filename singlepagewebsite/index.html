@@ -1,0 +1,181 @@
+<DOCTTYPE!>
+    <html>
+        <head>
+        <title>Brendan Tshedza - Portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+      </head>
+      
+      <body>
+        <!-- Navigation Bar -->
+        <nav>
+          <div id="home">
+            <div class="profile_name">
+              Brendan Tshedza
+              <div class="contact_info">
+                <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope">
+                Brendantshedza@Gmail.com
+              </div>
+              <div style="clear:both;"></div>
+              <div class="contact_info">
+                <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope">
+                +27760587684
+              </div>
+            </div>
+            <div class="topdiv">
+              <a class="topmenu" href="#about-me">About Me</a>
+              <a class="topmenu" href="#skills">Skills</a>
+              <a class="topmenu" href="#projects">Projects</a>
+              <a class="topmenu" href="#recommendations">Recommendation</a>
+            </div>
+          </div>
+        </nav>
+      
+        
+    
+        
+      
+        <section id="about-me" class="container">
+          <div>
+            <img src="https://raw.githubusercontent.com/rajpratyush/rajpratyush/master/me_1.gif" class="profile_image">
+          </div>
+      
+          <div>
+            <h1>
+              Hi, I'm Brendan Tshedza! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px">
+            </h1>
+            <p>
+              I possess a comprehensive skill set as a full stack developer, boasting two years of proficiency in both application
+              and presentation tiers. My experience encompasses working on various applications, showcasing expertise in tools like
+              Smart Connections Services, where I've actively contributed to projects such as Smart Connections Assistant, NLU,
+              Sentiment Analyzer, among others.
+            </p>
+          </div>
+        </section>
+      
+        <section id="skills">
+          <h2>Skills</h2>
+          <div style="clear:both;"></div>
+      
+          <div class="all_skills">
+            <div class="skill">
+              <img src="html_finalprojimages/html5.png">
+              <h6>HTML</h6>
+              <p>2 years experience</p>
+            </div>
+      
+            <div class="skill">
+              <img src="html_finalprojimages/js.jpeg">
+              <h6>JavaScript</h6>
+              <p>2 years experience</p>
+            </div>
+      
+            <div class="skill">
+              <img src="html_finalprojimages/angular.png">
+              <h6>Angular</h6>
+              <p>1 years experience</p>
+            </div>
+      
+            <div class="skill">
+              <img src="html_finalprojimages/bootstrap.png">
+              <h6>Bootstrap</h6>
+              <p>1 years experience</p>
+            </div>
+      
+            <div class="skill">
+              <img src="html_finalprojimages/jquery.png">
+              <h6>JQuery</h6>
+              <p>2 years experience</p>
+            </div>
+      
+          </div>
+        </section>
+      
+        <!-- Projects -->
+        <section class="projects" id="projects">
+          <h2>
+            Projects
+          </h2>
+          <div style="clear:both;"></div>
+      
+          <div id="projects-container" class="projects-container">
+            <div class="project-card">
+              <h3>Chatbot</h3>
+              <ul>
+                <li>Crafted a secure website incorporating a chatbot functionality for an automotive client using HTML, CSS,
+                  JavaScript, and leveraging the capabilities of Smart Connections Assistant.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Sentiment Analyzer</h3>
+              <ul>
+                <li>Designed and implemented a sentiment analysis tool tailored for the product reviews section of an eCommerce
+                  platform, employing IBM NLU (Natural Language Understanding). Subsequently, successfully deployed the tool for
+                  seamless integration and functionality.</li>
+              </ul>
+            </div>
+            <hr>
+            <div class="project-card">
+              <h3>Fashion Website</h3>
+              <ul>
+                <li>Created a styled multi-page website for a new player in the fashion industry and integrated it with a
+                  shopping cart, using stripe for payment gateway</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div style="clear:both;"></div>
+      
+        <!-- Recommendations -->
+        <section id="recommendations">
+          <h2>Recommendations</h2>
+          <div style="clear:both;"></div>
+          <div class="all_recommendations" id="all_recommendations">
+            <div class="recommendation">
+              <span>“</span>
+              Brendan quickly grasps web development concepts, showcasing a positive attitude and strong teamwork skills. His
+              inquisitive nature and proactive approach indicate potential for future leadership roles.
+              <span>”</span>
+            </div>
+            <div class="recommendation">
+              <span>“</span>
+              Working with Brendan has been remarkable. His extensive expertise and dedication to excellence make him a standout
+              collaborator. I look forward to partnering with him on future projects.
+              <span>”</span>
+            </div>
+            <div class="recommendation">
+              <span>“</span>
+              I collaborated with Brendan during the early stages of our venture, specifically focusing on web development. He
+              demonstrated dedication and a profound understanding of the domain, making him a valuable asset to any organization
+              <span>”</span>
+            </div>
+            <div class="recommendation">
+              <span>“</span>
+              I highly recommend Brendan as a web developer. He combines rapid learning with a positive attitude, making him a
+              valuable asset to any team. Brendan's proactive approach and keen curiosity set him apart, showing great potential
+              for future growth in the field.
+              <span>”</span>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Recommendation Form -->
+        <section id="contact">
+          <div class="flex_center">
+            <fieldset>
+              <legend class="introduction">Leave a Recommendation</legend>
+              <input type="text" placeholder="Name (Optional)"> <br>
+              <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+              <div class="flex_center">
+                <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+              </div>
+            </fieldset>
+          </div>
+        </section>
+      
+        <div class="iconbutton">
+          </div>
+        
+     </body>
+     </html>
